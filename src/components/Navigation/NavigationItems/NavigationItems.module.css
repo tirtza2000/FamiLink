@@ -1,0 +1,20 @@
+.NavigationItems {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  font-style: unset;
+  font-family:'Segoe UI Semibold'; 
+  margin-left: 470px;
+  font-weight: bold;
+  
+  z-index: 1;
+}
+
+@media (min-width: 500px){
+  .NavigationItems{
+    flex-flow: row; 
+  }
+}

@@ -1,0 +1,93 @@
+.calendarContent{
+    margin: 10px ;
+    width: 81%;
+    text-align: center;
+    direction: rtl;
+    box-shadow: 0px 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 150px;
+    left: 10px;
+    color: black;
+}
+
+.header{
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    margin-top:-30px;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px #EF9C83;
+}
+.InputCalendar{
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width:80%;
+    text-align: right;
+    direction: rtl;
+}
+
+.LableCalendar{
+   font-weight: bold;
+   font-family:'Segoe UI';
+   font-size: large;
+}
+
+.InputCalendar:focus {
+    border: 3px solid #555;
+  }
+  
+
+.button {
+    background-color: #EF9C83;
+    border:2px solid #EF9C83;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px 25px;
+  }
+.button:hover {
+      background-color: white;
+      color: #EF9C83;
+    
+}
+.label{
+    position: absolute;
+    right: 620px;
+    font-size: 20px;
+     margin-top: 13px;
+}
+.InputDatePast{
+    position: absolute;
+    left: 550px;
+    width: 15%;
+    padding: 9px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ .form{
+     position: relative;
+     left: 200px;
+     height: 320px;
+     width: 400px;
+     align-items: center;
+     text-align: center;
+ }
+
+a {
+    color: black;
+}

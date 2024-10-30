@@ -1,0 +1,126 @@
+.contentModule{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+.LablePedigree{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 0.5rem;
+ font-weight: bold;
+    font-size: 50px;
+ }
+
+
+.InputPedigree{
+  
+    padding: 12px 20px;
+    margin-left:42px;
+    text-align: right;
+    align-items: center;
+    box-sizing: border-box;
+    font: inherit;
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    direction: rtl;
+}
+.InputPedigree:focus{
+    border-bottom: 3px solid rgb(0, 0, 0);
+  }
+
+  .select{
+      direction: rtl;
+  }
+.plusUser {
+    background-color: white;
+    width: 80px;
+    height: 75px;
+    border: none;
+    border-radius:50%;
+}
+
+.buttonPlusUser {
+    background-color:white;
+    border-radius:50%;
+    border: none;
+    position:relative;
+    right:60px;
+}
+
+.ImageUser{
+    position: relative;
+    left: 280px;
+    width: 170px;
+    height: 200px;
+}
+
+.contentModal{
+    direction: rtl;
+}
+
+.dropdown {
+    position:absolute;
+    top:10px;
+    left:70px;
+    display: inline-block;
+  }
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdownContent button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: none;
+    min-width: 160px;
+  }
+  
+  .dropdownContent button:hover {background-color: #ddd;}
+  .dropdown:hover .dropdownContent {display: block;}
+  
+.inputFile {
+    display: none;
+}
+
+.camera {
+    width: 35px;
+    height: 23px;
+    border-radius:50%;
+}
+.buttonCamera {
+    position: absolute;
+    top:159px;
+    left:330px;
+    background-color:none;
+    border-radius: 50px;
+    border: black solid 1;
+    margin: 25px;
+    z-index: 1;
+}
+ .DivPedigree{
+     
+    width:300vw;
+    height:200vh;
+   
+   
+    align-items: center ;
+ 
+  
+  
+ }

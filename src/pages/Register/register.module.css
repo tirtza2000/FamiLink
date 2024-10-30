@@ -1,0 +1,46 @@
+.SignUp {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 120px;
+
+}
+
+@media (min-width: 600px) {
+    .SignUp{
+        width: 500px;
+    }
+}
+
+  .button {
+    background-color: #EF9C83;
+    border:2px solid #EF9C83;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px 25px;
+  }
+  .button:hover {
+      background-color: white;
+      color: #EF9C83;
+    
+}
+.select{
+    width: 200px;
+    height: 35px;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}

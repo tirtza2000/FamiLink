@@ -1,0 +1,70 @@
+
+#galleryContent > h1 {
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    margin-top:-30px;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px #EF9C83;
+}
+
+#plus {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+}
+
+#button-plus {
+  
+    background-color: #EF9C83;
+    border-radius: 100px;
+    border: none;
+ 
+}
+#galleryContent{
+    margin: 10px ;
+    width: 81%;
+    text-align: center;
+    direction: rtl;
+    padding: 20px;
+   
+    margin-top: 70px;
+    margin-left: 150px;
+    left: 10px;
+}
+
+#tooltip {
+    position:absolute;
+    display: inline-block;
+    margin: 30px; 
+    top: 270px;
+    left: 190px;
+  }
+  
+  #tooltip #tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(46, 43, 43);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  #tooltip:hover #tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+#inputFile {
+    display: none;
+}
